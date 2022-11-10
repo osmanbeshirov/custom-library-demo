@@ -16,3 +16,7 @@ export const CardBtn = (props) => {
     <button {...props}>{props.text}</button>
   )
 }
+
+export const Paragraph = (props) => {
+  return <p className={styles.paragraph} {...props}>{props.text}</p>
+}
