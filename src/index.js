@@ -10,3 +10,9 @@ export const Button = (props) => {
     <button {...props} >{props.text}</button>
   )
 }
+
+export const CardBtn = (props) => {
+  return (
+    <button {...props}>{props.text}</button>
+  )
+}

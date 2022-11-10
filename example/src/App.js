@@ -1,7 +1,8 @@
 import React from 'react'
 
-import { ExampleComponent, Button } from 'cassui'
+import { ExampleComponent, Button, CardBtn } from 'cassui'
 import 'cassui/dist/index.css'
+
 
 
 const App = () => {
@@ -10,7 +11,9 @@ const App = () => {
 
     <Button text='Click me' onClick={() => alert('HI I AM A ALERT FUNCTION')} />
 
+    <CardBtn text='Add to card' onClick={() => alert('Product is added to card...')} />
+
   </>
 }
 
-export default App
+export default App;
