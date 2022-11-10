@@ -5,8 +5,8 @@ export const ExampleComponent = ({ text }) => {
   return <div className={styles.test}>Example Component: {text}</div>
 }
 
-export const Button = ({ text, onClick }) => {
+export const Button = (props) => {
   return (
-    <button onClick={onClick}>{text}</button>
+    <button {...props} >{props.text}</button>
   )
 }
